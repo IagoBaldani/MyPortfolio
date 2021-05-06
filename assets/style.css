@@ -223,7 +223,7 @@ a{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 90px 100px 20px 100px;
+    padding: 90px 50px 20px 50px;
     background-color: rgba(0, 0, 0, 0.90);
     color: #fff;
 }
