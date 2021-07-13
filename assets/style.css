@@ -119,7 +119,6 @@ a{
 /**************************************************/
 
 .sobre{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 90px 100px 20px 100px;
@@ -220,7 +219,6 @@ a{
 /**************************************************/
 
 .projetos{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 90px 50px 20px 50px;
@@ -364,7 +362,6 @@ a{
 @media (max-width:1360px){
     .projetos{
         padding: 75px 20px 20px 20px;
-        height: 150vh;
     }
 
     .lower{
@@ -388,9 +385,6 @@ a{
         margin-left: 10px;
         margin-right: 10px;
     }
-    .sobre{
-        height: 140vh;
-    }
 
     .sobrelower{
         flex-direction: column;
@@ -407,7 +401,6 @@ a{
 @media (max-width: 700px){
     .sobre{
         padding: 90px 20px 20px 20px;
-        height: 140vh;
     }
 
     .sobreupper{
@@ -462,9 +455,7 @@ a{
 }
 
 @media (max-width: 430px){
-    .sobre{
-        height: 155vh;
-    }
+
     .sobrelower{
         height: 500px;
     }
@@ -496,9 +487,6 @@ a{
 }
 
 @media (max-width: 340px){
-    .sobre{
-        height: 165vh;
-    }
     
     .sobrelower{
         height: 600px;
